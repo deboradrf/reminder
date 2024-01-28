@@ -6,6 +6,15 @@ O projeto consiste em um *Sistema de criação de lembretes*, desenvolvido em C#
 O sistema possibilita a criação de lembretes mediante a inserção do nome e da data desejada. Além disso, oferece a funcionalidade de exclusão dos lembretes já adicionados à lista. Uma validação assegura que apenas lembretes com datas válidas ou futuras sejam incluídos.
 
 ### 📁 Como executar
-1- Certifique-se de ter o Visual Studio instalado em sua máquina. <br>
-2- Baixe o projeto ZIP. <br>
+1- Certifique-se de ter o Visual Studio instalado em sua máquina.
+
+2- Clone o repositório <br>
+`git clone https://github.com/deboradrf/testeDTI` <br>
+
 3- Abra a solução do projeto "Reminder.sln".
+
+ou
+
+1- Baixe o projeto ZIP.
+
+2- Abra a solução do projeto "Reminder.sln".
