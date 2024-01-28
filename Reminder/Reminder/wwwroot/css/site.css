@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    background-color: #bccad8;
+}
+
+.container-add {
+    display: flex;
+    justify-content: center;    
+    margin-top: 50px;
+}
+
+.card {
+    background-color: #8391ad;
+    width: 800px;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 10px 5px #43485c;
+}
+
+fieldset {
+    border: 1px solid #43485c;
+}
+
+input {
+    border: none;
+    margin-top: 40px;
+    outline: none;
+    width: 100%;
+    height: 25px;
+}
+
+#btn-add {
+    background-color: #43485c;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-top: 40px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container-list {
+    margin: 50px 30px;
+}
+
+.btn-delete {
+    background-color: #43485c;
+    border: none;
+    color: white;
+    padding: 2px 7px;
+    margin-left: 20px;
+    cursor: pointer;
+}

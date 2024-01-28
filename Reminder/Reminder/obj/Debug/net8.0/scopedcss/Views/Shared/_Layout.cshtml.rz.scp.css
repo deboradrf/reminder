@@ -1,0 +1,20 @@
+*[b-9yfialvt4t] {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header[b-9yfialvt4t] {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer[b-9yfialvt4t] {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  line-height: 60px;
+}
+
+

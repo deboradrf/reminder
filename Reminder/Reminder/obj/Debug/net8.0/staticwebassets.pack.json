@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Débora\\Desktop\\Reminder\\Reminder\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Reminder.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Reminder.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Débora\\Desktop\\Reminder\\Reminder\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Débora\\Desktop\\Reminder\\Reminder\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Reminder.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Reminder.props",
+      "PackagePath": "build\\Reminder.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Reminder.props",
+      "PackagePath": "buildMultiTargeting\\Reminder.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Reminder.props",
+      "PackagePath": "buildTransitive\\Reminder.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

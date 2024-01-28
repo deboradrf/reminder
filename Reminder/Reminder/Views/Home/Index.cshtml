@@ -1,0 +1,53 @@
+﻿@model List<Reminder.Models.Lembrete>
+
+<html>
+<head>
+    <title>Lembretes</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="container-add">
+            <div class="card">
+                <form method="post" action="/Home/AdicionarLembrete">
+                    <fieldset>
+                        <legend>Novo Lembrete</legend>
+                        <input type="text" name="nome" placeholder="Nome" required />
+                        <input type="text" name="data" placeholder="Data [dd/mm/yyyy]" required />
+                        <button id="btn-add" type="submit">Adicionar</button>
+                    </fieldset>
+                    <div class="error">
+                        @if (TempData["Erro"] != null)
+                        {
+                            @TempData["Erro"] 
+                        }
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="container-list">
+            <h3>Lista de Lembretes</h3>
+
+            @foreach (var lembrete in Model.OrderBy(l => l.Data))
+            {
+                <div class="lembrete">
+                    <form method="post" action="@Url.Action("ExcluirLembrete", "Home")">
+                        <h5>@lembrete.Data.ToString("dd/MM/yyyy")</h5>
+                        <ul>
+                            <li>
+                                @lembrete.Nome
+                                <input type="hidden" name="lembreteId" value="@lembrete.Id" />
+                                <button type="submit" class="btn-delete">X</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            }
+        </div>
+    </main>
+</body>
+</html>
