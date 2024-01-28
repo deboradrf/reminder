@@ -6,6 +6,6 @@ Foi desenvolvido em C#, com a tecnologia ASP.NET no padrão MVC, que permite a c
 O sistema permite criar um lembrete ao ser informado o nome e a data desejada, além de também ser possível exluír algum lembrete adicionado à lista. Possui uma validação em que permite ser adicionado apenas lembretes que possuem um data válida ou que esteja no futuro.
 
 ### 📁 Como executar
-1- Certifique-se de ter o Visual Studio instalado em sua máquina.
-2- Baixe o projeto ZIP.
+1- Certifique-se de ter o Visual Studio instalado em sua máquina. <br>
+2- Baixe o projeto ZIP. <br>
 3- Abra a solução do projeto "Reminder.sln".
