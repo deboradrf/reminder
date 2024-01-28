@@ -9,7 +9,7 @@ O sistema possibilita a criação de lembretes mediante a inserção do nome e d
 1- Certifique-se de ter o Visual Studio instalado em sua máquina.
 
 2- Clone o repositório <br>
-`git clone https://github.com/deboradrf/testeDTI` <br>
+`git clone https://github.com/deboradrf/testeDTI`
 
 3- Abra a solução do projeto "Reminder.sln".
 
