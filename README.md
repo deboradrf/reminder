@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/github/stars/deboradrf?style=social">
 </p>
 
-### 📚 Descrição
+## 📚 Descrição
 Projeto desenvolvido para teste prático de estágio que consiste em um *Sistema de criação de lembretes*, desenvolvido em C#, com a tecnologia ASP.NET no padrão MVC.
 
 ## ⚙️ Funcionalidades
