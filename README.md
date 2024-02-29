@@ -1,9 +1,23 @@
 <h1 align="center">Sistema de Lembrete</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-CONCLUIDO-green?style=plastic">
+  <img src="https://img.shields.io/github/stars/deboradrf?style=social">
+</p>
 
 ### 📚 Descrição
-O projeto consiste em um *Sistema de criação de lembretes*, desenvolvido em C#, com a tecnologia ASP.NET no padrão MVC, que permite a criação de aplicações web com HTML e CSS.
+Projeto desenvolvido para teste prático de estágio que consiste em um *Sistema de criação de lembretes*, desenvolvido em C#, com a tecnologia ASP.NET no padrão MVC.
 
-O sistema possibilita a criação de lembretes, em ordem cronoógica, mediante a inserção do nome e da data desejada. Além disso, oferece a funcionalidade de exclusão dos lembretes já adicionados à lista. Uma validação assegura que apenas lembretes com datas válidas ou futuras sejam incluídos.
+## ⚙️ Funcionalidades
+``1`` Criação de lembretes, em ordem cronoógica, mediante a inserção do nome e da data desejada
+``2`` Excluir um lembrete.
+``3`` Validação que assegura que apenas lembretes com datas válidas ou futuras sejam incluídos.
+
+## ✔️ Tecnologias utilizadas
+- ``Visual Studio``
+- ``HTML``
+- ``CSS``
+- ``C#``
+- ``ASP.NET``
 
 ### 📁 Como executar
 1- Certifique-se de ter o Visual Studio instalado em sua máquina.
