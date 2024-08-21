@@ -20,15 +20,5 @@ Projeto desenvolvido para teste prático de estágio que consiste em um *Sistema
 - ``ASP.NET``
 
 ### 📁 Como executar
-1- Certifique-se de ter o Visual Studio instalado em sua máquina.
-
-2- Clone o repositório <br>
-`git clone https://github.com/deboradrf/testeDTI`
-
-3- Abra a solução do projeto "Reminder.sln".
-
-ou
-
-1- Baixe o projeto ZIP.
-
-2- Abra a solução do projeto "Reminder.sln".
+``1``- Abra o terminal e clone o repositório: `git clone https://github.com/deboradrf/testeDTI` <br>
+``2``- Abra a solução do projeto "Reminder.sln".
