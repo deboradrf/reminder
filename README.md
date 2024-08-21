@@ -4,15 +4,15 @@
   <img src="https://img.shields.io/github/stars/deboradrf?style=social">
 </p>
 
-## 📚 Descrição
+### 📚 Descrição
 Projeto desenvolvido para teste prático de estágio que consiste em um *Sistema de criação de lembretes*, desenvolvido em C#, com a tecnologia ASP.NET no padrão MVC.
 
-## ⚙️ Funcionalidades
+### ⚙️ Funcionalidades
 ``1`` Criação de lembretes, em ordem cronoógica, mediante a inserção do nome e da data desejada. <br>
 ``2`` Excluir um lembrete. <br>
 ``3`` Validação que assegura que apenas lembretes com datas válidas ou futuras sejam incluídos.
 
-## ✔️ Tecnologias utilizadas
+### ✔️ Tecnologias utilizadas
 - ``Visual Studio``
 - ``HTML``
 - ``CSS``
